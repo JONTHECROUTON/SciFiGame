@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Display" style="flex-grow: 1; position: absolute; width: 100%; height: 100%; justify-content: center;">
+        <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Message" style="font-size: 100px; bottom: -25%; -unity-font-definition: url(&quot;project://database/Assets/Fonts/scifi2k2%20SDF.asset?fileID=11400000&amp;guid=16e5a160aedae4c4486875f1e051e919&amp;type=2#scifi2k2 SDF&quot;); color: rgb(255, 255, 255); -unity-text-align: upper-center;" />
+    </ui:VisualElement>
+</ui:UXML>
